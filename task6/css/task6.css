@@ -1,4 +1,4 @@
-body,ul,li,p,h1,h2,h3,img,div {
+﻿body,ul,li,p,h1,h2,h3,img,div {
 	margin: 0;
 	padding: 0;
 }
@@ -285,7 +285,7 @@ ol {
 
 .footer_right_down {
 	margin-top: 31px;
-	padding-top: 0.1px;
+	overflow:hidden;
 	width: 460px;
 	height: 317px;
 	background: #DAD8B7;
