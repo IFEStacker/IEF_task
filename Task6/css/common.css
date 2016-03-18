@@ -381,6 +381,7 @@ ol {
 }
 
 .last {
+	clear:both;
 	margin: 0;
 	width: 892px;
 	border: 1px solid black;
