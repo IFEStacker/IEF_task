@@ -254,7 +254,7 @@ ol {
 .footer_right_up {
 	height: 256px;
 	width: 457px;
-	border-top: 0.1px solid transparent;
+	padding-top: 0.1px; 
 	background: url(../img/footer_right.png);
 }
 
