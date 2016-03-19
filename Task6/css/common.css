@@ -1,0 +1,392 @@
+﻿body,ul,li,p,h1,h2,h3,img,div {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 12px "微软雅黑";
+}
+
+img {
+	border: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+
+/******************************* header *******************************/
+
+.header {
+	width: 892px;
+	height: 97px;
+	margin: 0 auto;
+}
+
+.header span {
+	width: 110px;
+	height: 20px;
+	display: inline-block;
+	padding-top: 40px;
+	font: 12px simhei;
+}
+
+.logo {
+	background: #BD434B;
+	text-align: center;
+	margin-right: 666px;
+	color: white;
+}
+
+.date {
+	text-align: right;
+	color: #BD434B;
+}
+
+.header hr {
+	margin-top: 0;
+	border: 1px solid black;
+}
+
+
+/******************************* middle_high **************************************/
+
+.middle {
+	width: 892px;
+	height: 581px;
+	margin:auto;
+}
+
+.middle_high {
+	width: 892px;
+	height: 341px;
+	background: url(../img/middle_main.png) no-repeat left top;
+}
+
+.redShadow {
+	margin-left: 260px;
+}
+
+.middle_text {
+	width: 199px;
+	height: 341px;
+	border-top: 2px solid #BD434B;
+}
+
+.bigBlack {
+	font: 24px "微软雅黑";
+	text-decoration: underline;
+	margin-top: 2px;
+}
+
+.bigBlack:first-letter {
+	font-size: larger;
+}
+
+.middle_text p {
+	font: oblique 12px/1em kartika;
+	color: #727679;
+}
+
+.bigGreen {
+	font: oblique 117px/1.2em "microsoft yahei";
+	color: #4B9A5A;
+	margin-left: -20px;
+}
+
+.bigBrown {
+	font:normal 55px "微软雅黑";
+	color: #AB5D71;
+	margin-right: 8px;
+	display: inline-block;
+	margin-top: -4px;
+	margin-left: -8px;
+}
+
+.nextBrown {
+	font: 21px "微软雅黑";
+	color: #AB5D71;
+	width: 86px; height: 14px;
+	padding-top: 10px;
+	display: inline-block;
+}
+
+/******************************* middle_low **************************************/
+
+.middle_low {
+	width: 892px;
+	height: 210px;
+}
+
+.middle_low1,.middle_low2,.middle_low3 {
+	width: 227px;
+	height: 210px;
+	margin-right: 28px;
+	font: 12px/1.5em SimSun;
+}
+.middle_low3 {
+	margin-top: -2px;
+}
+.middle_low3 div {
+	font: 12px/2em "微软雅黑";
+}
+
+.middle_low3 div span {
+	color: #B2363C;
+	font-style: italic;
+}
+
+.middle_low1 h3 {
+	margin-bottom: 11px;
+	color: #306C46;
+	font: bold 16px "微软雅黑";
+	text-decoration: underline;
+}
+
+.middle_low2 h3 {
+	margin-bottom: 11px;
+	color: #B87143;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.middle_low3 h3 {
+	margin-bottom: 11px;
+	color: #AD5564;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/******************************* footer **************************************/
+
+.footer {
+	width: 892px;
+	height: 710px;
+	margin: auto;
+	margin-top: -10px;
+}
+
+.footer_left {
+	width: 413px;
+	height: 650px;
+}
+
+.footer_right {
+	width: 460px;
+	height: 650px;
+}
+
+.footer_left h2 {
+	color: #0A2E4D;
+	font-size: 42px;
+	font-family: simhei;
+	font-weight: bold;
+	line-height: 100%;
+	margin-top: 15px;
+}
+
+.footer_left span {
+	color: #EFD327;
+	font-size: 72px;
+	font-family: simhei;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.footer_left p {
+	color: #0A2E4D;
+	font-size: 30px;
+	font-family: simhei;
+	font-weight: bold;
+	line-height: 100%;
+	line-height: 150%
+}
+
+.footer_left hr {
+	border: 2px solid #0A2E4D;
+}
+
+.footer_left_img {
+	margin: 15px 0 15px 8px;
+	float: right;
+}
+
+.footer_leftBottom .para1 {
+	font: 12px/16px simsun;
+	margin-top: 25px;
+	line-height: 17px;
+	letter-spacing: 0.1em;
+}
+
+.footer_leftBottom .para2 {
+	font: 12px/16px simsun;
+	margin-top: 0px;
+	line-height: 17px;
+	letter-spacing: 0.1em;
+}
+
+.footer_leftBottom span {
+	font-style: normal;
+	width: 66px;
+	height: 75px;
+	line-height: 75px;
+	color: #EFD327;
+	font-size: 70px "微软雅黑";
+	margin-right: 17px;
+}
+
+/******************************* footer_right_up **************************************/
+
+.footer_right_up {
+	height: 256px;
+	width: 457px;
+	overflow:hidden; 
+	background: url(../img/footer_right.png);
+}
+
+.footer_right_up p {
+	font: italic 12px "微软雅黑";
+	color: #72B16A;
+}
+
+.footer_right_up span {
+	border-left: 3px solid #72B16A;
+	font: 26px "微软雅黑";
+	color: white;
+	line-height: 57px;
+	margin-left: 30px;
+	margin-right: 10px;
+	padding-left: 10px;
+}
+
+.footer_right_up div {
+	width: 457px;
+	height: 57px;
+	margin-top: 200px;
+	background: url(../img/shadow_dark.png);
+}
+
+
+/******************************* footer_right_down **************************************/
+
+.footer_right_down {
+	margin-top: 31px;
+	padding-top: 0.1px;
+	width: 460px;
+	height: 317px;
+	background: #DAD8B7;
+}
+
+.footer_right_down ul li span {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #10456b;
+	display: inline-block;
+	margin: -10px 5px 0 0;
+}
+
+.footer_right_down li {
+	color: #3A3F43;
+	margin-left: 31px;
+	margin-top: 20px;
+	font: simsun;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+
+.footer_right_down li label {
+	font: italic 12px simhei;
+	color: #3A3F43;
+}
+
+.footer_right_bottom {
+	width: 280px;
+	height: 162px;
+	background: #BD434B;
+	margin-top: 30px;
+}
+
+.footer_right_bottom .bigZero {
+	font: 112px "微软雅黑";
+	color: white;
+	border: none;
+	border-right: 3px solid white;
+	width: 58px;
+	height: 88px;
+	line-height: 88px;
+	margin-top: 39px;
+	margin-left: 10px;
+	padding-right: 20px;
+}
+
+.nextZero {
+	width: 170px;
+	height: 71px;
+	margin-top: 44px;
+}
+
+.nextZero h3 {
+	font: 21px simhei;
+	color: white;
+	font-style: italic;
+}
+
+.nextZero p {
+	font-size: 12px;
+	font-family: simhei;
+	color: white;
+}
+
+.quote {
+	margin-top: 55px;
+	padding-left: 5px;
+	width: 173px;
+	height: 98px;
+	font-size: 14px;
+	font-family: simhei;
+	color: #3A3F43;
+	font-style: italic;
+}
+
+.yinhao,.yinhao2 {
+	font-size: 72px;
+	font-family: simhei;
+	color: #BD434B;
+	font-style: normal;
+	width: 73px;
+	height: 23px;
+	text-align: center;
+}
+.quote .yinhao {
+	margin: -20px 5px 0 -36px;
+}
+.quote .yinhao2 {
+	margin: -6px -30px 0 0;
+}
+
+.last {
+	clear:both;
+	margin: 0;
+	width: 892px;
+	border: 1px solid black;
+}
+
+.last2 {
+	color: #BD434B;
+}
